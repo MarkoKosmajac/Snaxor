@@ -25,6 +25,12 @@
 # About Snaxor
 Snaxor is a python port scanner.
 
+# Install Instructions
+Snaxor requires the following modules to be installed with pip:
+ - colorama
+ - termcolor
+ - pyfiglet
+
 # How To Run
 $ python snaxor.py --ip example.com (OPTIONAL: --startport 1 --endport 65535 --threads 200)
 
